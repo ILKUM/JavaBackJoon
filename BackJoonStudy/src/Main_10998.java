@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class Main3 {
+public class Main_10998 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		double a = s.nextDouble();
-		double b = s.nextDouble();
-		System.out.println(a/b);
+		int a = s.nextInt();
+		int b = s.nextInt();
+		int c = a*b;
+		System.out.println(c);
 		s.close();
 		}
 }
